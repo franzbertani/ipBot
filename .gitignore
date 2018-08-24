@@ -2,3 +2,4 @@ token
 *.db
 auth_users_list
 ip
+*.log

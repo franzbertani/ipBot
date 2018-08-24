@@ -171,7 +171,7 @@ try:
 except:
     print("ERROR: no token found, put the bot token in %s" %(TOKEN_FILE))
 
-updater = Updater(token=TOKEN)
+updater = Updater(token=bot_token)
 dispatcher = updater.dispatcher
 job_queue = updater.job_queue
 
