@@ -170,7 +170,7 @@ try:
         bot_token = in_file.readline()
 except:
     print("ERROR: no token found, put the bot token in %s" %(TOKEN_FILE))
-    return
+
 updater = Updater(token=TOKEN)
 dispatcher = updater.dispatcher
 job_queue = updater.job_queue
