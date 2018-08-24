@@ -167,11 +167,11 @@ ENTRY POINT
 bot_token = ''
 try:
     with open(TOKEN_FILE, 'r') as in_file:
-        bot_token = in_file.readline()
+        bot_token = in_file.readline().strip()
 except:
     print("ERROR: no token found, put the bot token in %s" %(TOKEN_FILE))
 
-updater = Updater(token=bot_token)
+updater = Updater(token=str(bot_token))
 dispatcher = updater.dispatcher
 job_queue = updater.job_queue
 
