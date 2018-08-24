@@ -1,3 +1,4 @@
 token
 *.db
-auth_user_list
+auth_users_list
+ip
