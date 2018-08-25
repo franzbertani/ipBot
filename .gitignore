@@ -1,4 +1,5 @@
 token
+config
 *.db
 auth_users_list
 ip

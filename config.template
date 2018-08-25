@@ -1,0 +1,47 @@
+[IPBOT]
+
+## Replace TOKEN with the token provided by the BotFather
+token = TOKEN
+
+## Path to the file with the list of authorized users.
+## DEFAULT: ./auth_users_list
+## Each line in the file must be formatted as follows:
+## <user_id> <username>
+## The user_id can be retrieved with userinfobot
+# auth_users_list =
+
+## Path to the file where the current IP is stored
+## DEFAULT: ./ip
+# ip_file =
+
+## Path to the file that will be used as sqlite DB
+## DEFAULT: ./ipBot.db
+# db_file =
+
+## Path to the file that will be used to store the log
+## DEFAULT: ./ipBot.log
+# log_file =
+
+## Logging level selected among {debug, info, warning, error, critical}
+## DEFAULT: info
+# logging_level =
+
+## IP update interval in seconds
+## DEFAULT: 300
+# update_interval =
+
+## Message to send to new users at /start
+## DEFAULT: Service started
+# welcome_message =
+
+## Message to send to leaving users at /stop
+## DEFAULT: Service stopped
+# goodbye_message =
+
+## Message to send as response to an unauthorized command
+## DEFAULT: Unauthorized user
+# unauthorized_message =
+
+## Message with the updated IP
+## DEFAULT: New IP:
+# ip_message =
