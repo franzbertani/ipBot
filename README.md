@@ -22,3 +22,12 @@ Each line in the file represent an user and **must** be formatted as follows:
 ```
 
 You can retrieve an user `user_id` by using another bot called [@userinfobot](https://t.me/userinfobot).
+
+## Start and stop
+
+Two super simple bash scripts are provided to start and stop the service.
+
+- `./start.sh`
+- `./stop.sh`
+
+
