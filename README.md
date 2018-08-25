@@ -6,18 +6,17 @@ A not so useful Telegram bot to receive updates on your IP address.
 
 This bot requires **sqlite3**, **urllib3** and **python-telegram-bot**, so ya better `pip install` them.
 
-## Config files
+## Configuration File
 
-### Token file
+You must provide a `config` in the same folder of the python script.
+There's a template in `config.template`, the only thing that you **must** provide is the *token*.
+The token can be obtained by contacting the [@BotFather](https://t.me/BotFather). 
 
-Put your token in a file called `./token`. 
-To get yours contact the [@BotFather](https://t.me/BotFather). 
+## Authorized users
 
-### Authorized users
-
-This bot looks for the authorized user list in a file called `./auth_users_list` because we don't want to tell everybody your precious IP, ain't it right? 
-So please create this file as follows:
-
+This bot looks for the authorized user list in a file called `./auth_users_list`.
+Only those users will be able to issue `/start` and `/stop` commands to the bot.
+Each line in the file represent an user and **must** be formatted as follows:
 ```
 <user_id> <username>
 ```
