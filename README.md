@@ -4,7 +4,7 @@ A not so useful Telegram bot to receive updates on your IP address.
 
 ## Dependencies
 
-This bot requires **sqlite3**, **urllib3** and **python-telegram-bot**, so ya better `pip install` them.
+This bot requires **sqlite3**, **urllib3**, **configparser** and **python-telegram-bot**, so `pip install` them.
 
 ## Configuration File
 
