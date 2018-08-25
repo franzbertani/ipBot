@@ -44,7 +44,7 @@ class Config:
         elif requested_logging_level.lower() == 'critical':
             self.logging_level = 50
 
-        self.update_interval = main_section.getint('update_interval', '300')
+        self.update_interval = main_section.getint('update_interval', 300)
         self.welcome_message = main_section.get(
             'welcome_message', 'Service started')
         self.goodbye_message = main_section.get(
