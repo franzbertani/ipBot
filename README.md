@@ -15,8 +15,8 @@ The token can be obtained by contacting the [@BotFather](https://t.me/BotFather)
 ## Authorized users
 
 This bot looks for the authorized user list in a file called `./auth_users_list`.
-Only those users will be able to issue `/start` and `/stop` commands to the bot.
-Each line in the file represent an user and **must** be formatted as follows:
+Only these users will be able to issue `/start` and `/stop` commands to the bot.
+Each line in the file represents an user and **must** be formatted as follows:
 ```
 <user_id> <username>
 ```
