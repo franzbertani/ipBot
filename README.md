@@ -22,6 +22,7 @@ Each line in the file represents an user and **must** be formatted as follows:
 ```
 
 You can retrieve an user `user_id` by using another bot called [@userinfobot](https://t.me/userinfobot).
+Oh, by the way, the username must be without the initial `@`.
 
 ## Start and stop
 
